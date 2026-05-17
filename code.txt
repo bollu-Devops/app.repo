@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cloth Sale Application</title>
+</head>
+<body>
+
+  <h1>Cloth Sale Application</h1>
+
+  <form>
+
+    <label>Customer Name:</label><br>
+    <input type="text" placeholder="Enter your name"><br><br>
+
+    <label>Select Cloth Type:</label><br>
+    <select>
+      <option>T-Shirt</option>
+      <option>Shirt</option>
+      <option>Jeans</option>
+      <option>Jacket</option>
+    </select><br><br>
+
+    <label>Select Size:</label><br>
+    <select>
+      <option>S</option>
+      <option>M</option>
+      <option>L</option>
+      <option>XL</option>
+    </select><br><br>
+
+    <label>Quantity:</label><br>
+    <input type="number" min="1"><br><br>
+
+    <label>Address:</label><br>
+    <textarea placeholder="Enter address"></textarea><br><br>
+
+    <button type="submit">Place Order</button>
+
+  </form>
+
+</body>
+</html>
